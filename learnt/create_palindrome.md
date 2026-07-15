@@ -1,11 +1,11 @@
-#Create Palindrome
+# Create Palindrome
 A palindrome is a string that can be read the same forward and backward
 
-##The problem
+## The problem
 I was tasked with establishing whether given a string I could construct a palindrome from it.
 The rules were I could only shift each letter once forward or backwards to come up with a string that is a palindrome
 
-##What I learnt
+## What I learnt
 I used the **ord()** Method in *char* to convert the characters to their equivalent number representations
 My assumption was if numbers where within a space of two *(Taking absolute value)* using the **abs()** method for *integers*.
 >>These was factoring in characters before and after. With these I could modify the strings to a middle ground character by shifting either one character ahead or one character before.

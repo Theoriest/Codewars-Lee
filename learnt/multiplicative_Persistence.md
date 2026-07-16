@@ -18,18 +18,18 @@ These would raise the following error
 
 The program would then exit execution.
 
-With these in mind I also noticed a count of the number of times the function was executed was kept and an in built **condition** was implemented that count ***999*** the program would stop execution and stop.
+With these in mind I also noticed a count of the number of times the function was executed was kept and an in built **condition** was implemented that if a count of  ***999*** is reached then  the program would stop execution and exit.
 
-These I learnt was implemented in stacks and wait for it the error is as a result of ***stack overflow***. 
+These (**recursion count**) I learnt was implemented in stacks and wait for it the error is as a result of ***stack overflow***. 
 
-The stack is set at a size of *1000* by default, these can be increased by setting system setting to a different number lower or even higher.
+The stack is set at a size of **1000** by default, these can be increased by setting system settings to a different number either lower or even higher.
 
-But  for me they key was a count was being maintained and stored some where.
+But  for me the key was that a count was being maintained and stored some where.
 
 ## Solution
 
-My solution involved recusrsive parsing the result of multiplation of numbers constituing a digit until the product was a single digit number.
-After ward I would retrieve the stored count, but I thought to myself if these is a predefined variable. I might run into issues with parsing multiple  numbers too find their respective *** Multiplicative Persistence.
+My solution involved recursively parsing the result of multiplation of numbers constituing a digit until the product was a single digit number.
+Afterward I would retrieve the stored count, but I thought to myself if these is a predefined variable. I might run into issues with passing multiple  numbers too find their respective ***Multiplicative Persistence***.
 
 The first number might return the correct value but the second would be a sum of the first and second numbers multiplicative persistence.
 

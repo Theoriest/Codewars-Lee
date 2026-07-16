@@ -1,15 +1,15 @@
 """
-### initial solution but faced challenge as I could not reset the global variable count to zero to handle a different number for the function 
-as these required settiong count to 0 through assignment. 
+Initial solution persistence_1 is as follows, these version faced challenge as I could not reset the global variable count to zero to handle a different number for the function 
+as these required setting count to 0 through assignment. 
 
-### for these i was actually counting the number of times the function was called.
+For these i was actually counting the number of times the function was called.
 
-### could also be solved using while loop but i wanted to implement recursion 
+These could also be solved using while loop but i wanted to prectice recursion 
 
-### ended up defining a helper function allowing me  to recent counter to 0 in the main function.
+In hte ended up defining a helper function allowing me  to reset global counter varible  to 0 in the main function.
 
 count = 0
-def persistence(n):
+def persistence_1 (n):
     global count
     count += 1
     length = len(str(n))

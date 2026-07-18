@@ -11,9 +11,9 @@ Then applying edits to conform the pig latin tongue.
 
 Later I found the simple solution was inbuilt in python using the split method which took a string and broke it down to its composite words.
 These would be the simplified code including pig latinization steps
-> `def pig_it(text):`
->   `punc = {"!", "?", "."}`
->   `return " ".join(`
->       `word if word in punc else word[1:] + word[0] + "ay"`
->       `for word in text.split()`
->   `)`
+> `def pig_it(text):
+>   punc = {"!", "?", "."}
+>   return " ".join(`
+>       word if word in punc else word[1:] + word[0] + "ay"
+>       for word in text.split()
+>   )`
